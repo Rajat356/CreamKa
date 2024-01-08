@@ -4,9 +4,8 @@
     font-family: Arial;
     overflow-x: hidden;
 }
-
 .navbar {
-    height: 75px;
+    height: 80px;
     background-color: rgb(254, 254, 254);
     color: rgb(138, 106, 33);
     display: flex;
@@ -41,12 +40,17 @@
     margin-right: 40px;
 }
 /* .....n  */
+
+
+
+
+
+
 .nav2{
     -webkit-user-select: none;
     -ms-user-select: none; 
     user-select: none;
     overflow-x: hidden;
-    height: 550px;
     background-color: rgb(237, 227, 227);
     justify-content: center;
 }
@@ -64,6 +68,7 @@
 .nav2heading{
     display:flex;
     overflow: hidden;
+    height: 28.9rem;
     
 }
 .nav2heading .text{
@@ -100,22 +105,29 @@ nav a {
     text-decoration: none;
     color: rgb(79, 5, 5);
 }
+
+
+
+
+
+
+
 .heading{
     margin-top: 50px;
     text-align: center; 
     padding: 20px; 
     background-color: #ffffff; 
-    color: rgb(208, 1, 70);
+    color: rgb(255, 0, 85);
 }
 .upper {
     font-weight: lighter;
     font-size: 2rem;
 }
-.upper.i{
-    font-weight: bolder;
-    margin-left: 100px;
+.upper{
+    font-weight:bolder;
+
 }
-.lower  {
+.lower {
     font-weight: bolder; 
     font-size: 3.8rem;
 }
@@ -170,6 +182,16 @@ nav a {
     text-align: center;
     margin: 0 auto;
     margin-top: 20px; 
+    display: flex;
+
+}
+.button2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+
 }
 
 .red-round-button {
