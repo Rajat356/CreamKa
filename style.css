@@ -45,7 +45,10 @@ a {
 
 /* Navbar Start  */
 
-
+header {
+    background: #FFF5F7;
+    padding: 1rem 0;
+}
 
 .navbar-header .logo img {
     width: 100px;
