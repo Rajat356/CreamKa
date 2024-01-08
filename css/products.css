@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 75px;
+    background-color: rgb(254, 254, 254);
+    color: rgb(138, 106, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-call {
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    color: rgb(190, 157, 9);
+}
+
+.logo {
+    margin-right: 80px;
+    margin-left: 45px;
+    color: black;
+}
+
+.NavImg {
+    height: 70px;
+}
+
+.SM {
+    margin-right: 140px;
+    display: flex;
+}
+
+.ssm {
+    display: flex;
+    align-self: center;
+}
+
+.ssm i {
+    margin-right: 40px;
+}
+
+.nav2 {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    height: 550px;
+    background-color: rgb(237, 227, 227);
+    justify-content: center;
+}
+
+.navnav {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 8px;
+    /* margin-left: 290px;
+    margin-right: 290px; */
+    background-color: rgb(237, 227, 227);
+}
+
+.navnav li {
+    width: fit-content;
+}
+
+.nav2heading {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.nav2heading .text {
+    margin: auto 5vw;
+}
+
+.nav2heading .text h2 {
+    font-size: 3.5rem;
+}
+
+.nav2heading .text p {
+    font-size: 1rem;
+}
+
+.addImg img {
+    width: 29vw;
+    margin-left: 50px;
+}
+
+nav li {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin: 10px 40px;
+    transition: background-color 0.5s ease;
+}
+
+nav ul {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    background-color: #f6f6f6;
+    border-radius: 24px;
+    padding: 10px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(79, 5, 5);
+}
+
+.icecream {
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15vw;
+}
+
+
+.iceImg {
+    border-radius: 20px;
+    height: 30vw;
+    width: 25vw;
+}
+
+
+.text {
+    width: 80vw;
+    padding: 2rem;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.text h2 {
+    font-size: 2.5em;
+    color: rgb(208, 1, 70);
+    font-weight: bolder;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.text p {
+    margin-top: 15px;
+    color: grey;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+.button1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.red-round-button {
+    background-color: rgb(231, 127, 30);
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Img {
+    width: 30vw;
+}
+
+.features {
+    display: flex;
+    padding-top: 1rem;
+    margin-right: 100px;
+}
+
+li {
+    width: 15vw;
+    align-content: center;
+    padding: 0.5rem;
+}
+
+li .iconDiscription {
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+li .icons {
+    width: 50px;
+}
+
+
+/* Our Products */
+.ourProducts {
+    background-color: rgba(255, 235, 239, 0.801);
+    margin: 4rem 0;
+    padding: 2rem 0;
+}
+
+.ourProducts .text {
+    text-align: center;
+    margin: auto;
+}
+
+.featuredIceCreams {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.featuredIceCreams li .price {
+    background-color: rgb(255, 166, 196);
+    width: fit-content;
+    padding: 5px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 900;
+}
+
+.featuredIceCreams li {
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    margin: 10px;
+    padding: 0 35px;
+    border-radius: 1rem;
+}
+
+.featuredIceCreams li .IceCreamIMG {
+    border-radius: 5rem;
+    border: 14px solid rgb(255, 166, 196);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: -8px;
+}
+
+.featuredIceCreams li .IceCreamIMG img {
+    width: 10vw;
+    border-radius: 5rem;
+    border: 8px solid white;
+}
+
+li .Name {
+    padding: 0.5rem;
+    font-weight: 700;
+    color: rgb(88, 88, 88);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+li .Ratings {
+    height: 1.5rem;
+    width: fit-content;
+}
+
+.featuredIceCreams li .Ratings {
+    margin-left: 2rem;
+}
+
+.ellipsis {
+    display: flex;
+    max-width: fit-content;
+    margin: 2rem auto;
+    height: 3rem;
+}
+
+.ellipsis li {
+    border-radius: 10rem;
+    height: 5px;
+    width: 5px;
+    padding: 2.5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(231, 127, 30);
+    overflow: hidden;
+    margin: auto;
+    margin-right: 3px;
+}
+
+.ellipsis li:hover {
+    cursor: pointer;
+    border-radius: 10rem;
+    padding: 4px;
+    height: 5px;
+    width: 5px;
+    background-color: rgb(231, 127, 30);
+}
+
+.utext {
+    padding: 10 10px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.etext {
+    color: red;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.etextb {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* end  */
+/* advertisement */
+.advertisement {
+    margin: 4rem 0;
+    padding: 2rem 0;
+    background-color: rgba(255, 235, 239, 0.801);
+}
+
+.advertisement .text {
+    margin: auto;
+    width: 70vw;
+}
+
+.advertisement .text h2 {
+    text-align: center;
+}
+
+.advertisement .advertisementImg img {
+    height: 20rem;
+    padding: 0 4rem;
+}
+
+/* testimonials */
+
+.testimonials .text {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.testimonials .text h1 {
+    width: fit-content;
+    margin: 0 auto;
+    color: rgb(158, 225, 236);
+    font-weight: 200;
+    font-size: smaller;
+}
+
+.testimonials .text h2 {
+    width: max-content;
+}
+
+.reviews {
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.reviews li {
+    width: 28vw;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 235, 239, 0.801);
+    border-radius: 1rem;
+}
+
+.reviews li .Ratings {
+    margin-left: 9.5rem;
+
+}
+
+.reviews li .comments {
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Footer */
+.Footer {
+    background-color: rgba(230, 207, 212, 0.801);
+    margin-top: 5rem;
+}
+
+.Footer1 {
+    display: flex;
+    margin-left: 70px;
+}
+
+.Footer1 h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.Footer .getInTouch {
+    width: 40dvw;
+    padding: 0 1rem;
+    margin: 0 2rem;
+    margin-right: 120px;
+}
+
+.getInTouch .address {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.getInTouch .call {
+    color: rgb(138, 106, 33);
+    width: fit-content;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.getInTouch .SM {
+    color: rgb(138, 106, 33);
+    width: fit-content;
+    padding: 0 2rem;
+}
+
+.ssm i {
+    border: 1px solid rgb(138, 106, 33);
+    padding: 5px;
+    border-radius: 5rem;
+}
+
+.quickLinks .links li a {
+    color: rgb(49, 81, 82);
+    text-decoration: none;
+    height: fit-content;
+}
+
+.openingHours .timing li {
+    text-align: right;
+}
+
+.openingHours .timing .sunday {
+    display: flex;
+    justify-content: end;
+}
+
+.openingHours .timing .sunday .closed {
+    color: orange;
+}
+
+
+/* Footer2 */
+.Footer2 {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 1rem;
+
+}
