@@ -1,0 +1,158 @@
+*,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    overflow-x: hidden;
+}
+
+p {
+    color: #555;
+
+    /* BODY */
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    /* 144.444% */
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+
+}
+
+/* img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+
+.custom-btn {
+    display: inline-flex;
+    padding: 0.8rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.9375rem;
+    background: #F58221;
+    color: #fff;
+    border: 0;
+}
+
+/* Navbar Start  */
+
+header {
+    background: #FFF5F7;
+    padding: 1rem 0;
+}
+
+.navbar-header .logo img {
+    width: 100px;
+    background: #FFF5F7;
+}
+
+.header-phone {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #F58221;
+
+}
+
+.header-phone a {
+    color: #F58221;
+
+}
+
+.nav-icons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon {
+    /* padding: .1rem; */
+    border: 1px solid #F58221;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F58221;
+}
+
+
+.nav-icon:hover {
+    background-color: #F58221;
+    color: #fff;
+    transition: all .3s;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .links {
+    display: flex;
+    padding: 1rem;
+    background: #FFF5F7;
+    gap: 3rem;
+    border-radius: 0.9375rem;
+}
+
+/* 
+nav{
+    border: 1px solid;
+} */
+
+
+.navbar .links .nav-link {
+    color: #555;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+/* Banner Start  */
+
+
+.banner {
+    background: #FFE7EB;
+    height: 90vh;
+    max-height: 90vh;
+    width: 100%;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding-right: 5rem; */
+    border: 2px solid;
+}
+
+.banner-text h1 {
+    color: #D41442;
+    font-family: Titan One;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.375rem;
+    /* 116.667% */
+}
