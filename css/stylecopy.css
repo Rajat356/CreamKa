@@ -79,12 +79,14 @@
     justify-content: space-between;
 }
 .addImg img{
-    height: 24vw;
+    height: 23vw;
     bottom: 0;
 }
 .addImg .center{
-    height: 22vw;
-    margin-bottom:-5vw;
+    height: 16vw;
+    margin-bottom: -5vw;
+    margin-top: 107px;
+    margin-left: 20px;
 }
 nav li {
     background-color: transparent;
@@ -156,8 +158,8 @@ nav a {
 
 .iceImg {
     border-radius: 20px;
-    height: 50vw;
-    width:25vw;
+    height: 44vw;
+    width:28vw;
 }
 
 
@@ -323,7 +325,6 @@ li .Ratings{
 
 /* advertisement */
 .advertisement{
-    margin: 4rem 0;
     padding: 2rem 0;
     background-color: rgba(255, 235, 239, 0.801);
 }
@@ -337,6 +338,7 @@ li .Ratings{
 .advertisement .advertisementImg img{
     height:20rem;
     padding: 0 5rem;
+    margin-left: 20px;
 }
 
 

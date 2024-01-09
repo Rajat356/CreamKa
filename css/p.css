@@ -79,12 +79,14 @@
     justify-content: space-between;
 }
 .addImg img{
-    height: 22vw;
+    height: 23vw;
     bottom: 0;
 }
 .addImg .center{
-    height: 22vw;
-    margin-bottom:-5vw;
+    height: 16vw;
+    margin-bottom: -5vw;
+    margin-top: 107px;
+    margin-left: 20px;
 }
 nav li {
     background-color: transparent;
