@@ -60,13 +60,13 @@
     width:fit-content;
 }
 .nav2heading{
-    display:flex;
     overflow: hidden;
     height: 28.9rem;
     
 }
 .nav2heading .text{
-    margin: auto 5vw;
+    margin: 0 auto;
+    width:fit-content;
 }
 .nav2heading .text h2{
     font-size: 3.5rem;
@@ -74,11 +74,17 @@
 .nav2heading .text p{
     font-size: 1rem;
 }
-
+.addImg{
+    display: flex;
+    justify-content: space-between;
+}
 .addImg img{
-    width: 29vw;
-    margin-left: 50px;
-    
+    height: 24vw;
+    bottom: 0;
+}
+.addImg .center{
+    height: 18vw;
+    margin-bottom:-5vw;
 }
 nav li {
     background-color: transparent;
@@ -167,6 +173,7 @@ nav a {
     color: rgb(255, 127, 169);
     font-weight: lighter;
     padding: 20px 0;
+    /* margin: 0 auto; */
 }
 
 .text h2 {
@@ -241,6 +248,7 @@ li .icons{
     display:flex;
     margin: auto;
     width:fit-content;
+    overflow: hidden;
 }
 
 .featuredIceCreams li .price{
@@ -252,12 +260,26 @@ li .icons{
     font-weight: 900;
 }
 .featuredIceCreams li{
-    width: 20vw;
+    max-width: 20vw;
     background-color: rgb(255, 255, 255);
     width: fit-content;
     margin: 10px;
     padding: 0 35px;
     border-radius: 1rem;
+    overflow: hidden;
+}
+.featuredIceCreams li .red-round-button{
+    background-color: rgba(231, 127, 30, 0.8);
+    display: none;
+}
+.featuredIceCreams li:hover .red-round-button{
+    display:block;
+    z-index: +100;
+    margin-top: -8vw;
+    background-color: rgba(231, 127, 30);
+}
+.featuredIceCreams li:hover{
+    background-color: #f6f6f67f;
 }
 .featuredIceCreams li .IceCreamIMG{
     border-radius: 5rem;
@@ -270,6 +292,7 @@ li .icons{
     width: 10vw;
     border-radius: 5rem;
     border: 8px solid white;
+    z-index: 1;
 }
 li .Name{
     padding: 0.5rem;
@@ -358,13 +381,13 @@ li .Ratings{
     border-radius: 1rem;
 }
 .reviews li .Ratings{
-    margin-left: 9.5rem;
-    
+    margin-left: 9.5vw;
 }
 .reviews li .comments{
     text-align: center;
     padding: 10px 0;
 }
+
 
 
 /* Footer */
@@ -379,10 +402,12 @@ li .Ratings{
 .Footer1 h2{
     font-size:1.5rem;
     font-weight: 900;
+    width:fit-content;
+    padding:1rem;
 }
 .getInTouch{
     width:40dvw;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     margin: 0 2rem;
     margin-right: 120px;
 }
@@ -431,5 +456,45 @@ li .Ratings{
     justify-content: space-between;
     border-top: 1px solid rgb(0, 0, 0);
     padding: 1rem;
-
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .Footer1 {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .getInTouch,
+    .quickLinks,
+    .openingHours {
+        width: 100%;
+        margin: 0;
+    }
+    /* .Footer1 h2{
+        width: max-content;
+        text-wrap: nowrap;
+    } */
+    .openingHours li{
+        width: max-content;
+        text-wrap: nowrap;
+    }
+    .reviews li{
+        width: 80vw;
+    }
+    .featuredIceCreams li{
+        width: 80vw;
+    }
+    .second{
+        display: none;
+    }
+    .navbar{
+        display: block;
+        height:max-content;
+        margin: auto;
+    }
+    .navnav ul{
+        display: block;
+    }
+}
+

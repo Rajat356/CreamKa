@@ -66,7 +66,6 @@
     width:fit-content;
 }
 .nav2heading{
-    display:flex;
     overflow: hidden;
     height: 28.9rem;
     
@@ -76,15 +75,22 @@
 }
 .nav2heading .text h2{
     font-size: 3.5rem;
+    margin:auto 0;
 }
 .nav2heading .text p{
     font-size: 1rem;
 }
-
+.addImg{
+    display: flex;
+    justify-content: space-between;
+}
 .addImg img{
-    width: 29vw;
-    margin-left: 50px;
-    
+    height: 24vw;
+    bottom: 0;
+}
+.addImg .center{
+    height: 18vw;
+    margin-bottom:-5vw;
 }
 nav li {
     background-color: transparent;
@@ -142,7 +148,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 0 15vw;
+    padding: 0 4vw;
 }
 
 
@@ -153,9 +159,9 @@ nav a {
 }
 
 
-.text{
-    width:40vw;
-    padding: 2.5rem;
+text {
+    width: 107vw;
+    padding: 0.5rem;
 }
 
 .text h1 {
@@ -166,13 +172,13 @@ nav a {
 }
 
 .text h2 {
-    font-size: 2.5em; 
+    font-size: 2.3em; 
     color: rgb(208, 1, 70);
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .text p {
-    margin-top: 15px;
+    margin-top: 10px;
     color:grey;
     font-size: 1.2em; 
     font-weight:100;
@@ -360,7 +366,7 @@ li .Ratings{
     border-radius: 1rem;
 }
 .reviews li .Ratings{
-    margin-left: 9.5rem;
+    margin-left: 9.5vw;
     
 }
 .reviews li .comments{
@@ -434,4 +440,55 @@ li .Ratings{
     border-top: 1px solid rgb(0, 0, 0);
     padding: 1rem;
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .Footer1 {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .address{
+        margin-left: 20px;
+    }
+
+    .call{
+        margin-left: 20px;
+    }
+
+    .getInTouch,
+    .quickLinks,
+    .openingHours {
+        width: 100%;
+        margin: 0;
+    }
+    /* .Footer1 h2{
+        width: max-content;
+        text-wrap: nowrap;
+    } */
+    .openingHours li{
+        width: max-content;
+        text-wrap: nowrap;
+    }
+    .reviews li{
+        width: 80vw;
+    }
+    .featuredIceCreams li{
+        width: 80vw;
+    }
+    .second{
+        display: none;
+    }
+    .navbar{
+        display: block;
+        height:max-content;
+        margin: auto;
+    }
+    .navnav ul{
+        display: block;
+    }
+    .container{
+        display: block;
+    }
+    
 }
