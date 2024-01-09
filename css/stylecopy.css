@@ -158,8 +158,8 @@ nav a {
 
 .iceImg {
     border-radius: 20px;
-    height: 44vw;
-    width:28vw;
+    height: 33vw;
+    width: 26vw;
 }
 
 
@@ -336,9 +336,9 @@ li .Ratings{
     text-align: center;
 }
 .advertisement .advertisementImg img{
-    height:20rem;
-    padding: 0 5rem;
-    margin-left: 20px;
+    height: 21rem;
+    padding: 0 0rem;
+    margin-left: 115px;
 }
 
 
@@ -378,7 +378,6 @@ li .Ratings{
 }
 
 
-/* Footer */
 .Footer{
     background-color: rgba(255, 235, 239, 0.801);
     margin-top: 5rem;
@@ -390,10 +389,12 @@ li .Ratings{
 .Footer1 h2{
     font-size:1.5rem;
     font-weight: 900;
+    width:fit-content;
+    padding:1rem;
 }
 .getInTouch{
     width:40dvw;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     margin: 0 2rem;
     margin-right: 120px;
 }
@@ -431,6 +432,28 @@ li .Ratings{
 }
 .openingHours .timing .sunday .closed{
     color:orange;
+}
+
+
+/* Footer2 */
+.Footer2{
+    width:90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+
+/* Footer2 */
+.Footer2{
+    width:90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 1rem;
 }
 
 
