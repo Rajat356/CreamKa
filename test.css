@@ -1,0 +1,169 @@
+/* --------------------- */
+/* -----font-family----- */
+/* --------------------- */
+
+.ff-p {
+  font-family: Poppins;
+}
+
+/* --------------------- */
+/* -----font-family----- */
+/* --------------------- */
+
+/* --------------------- */
+/* -----font-weight----- */
+/* --------------------- */
+.c-fw-1 {
+  font-weight: 100;
+}
+
+.c-fw-2 {
+  font-weight: 200;
+}
+
+.c-fw-3 {
+  font-weight: 300;
+}
+
+.c-fw-4 {
+  font-weight: 400;
+}
+
+.c-fw-5 {
+  font-weight: 500;
+}
+
+.c-fw-6 {
+  font-weight: 600;
+}
+
+.c-fw-7 {
+  font-weight: 700;
+}
+
+.c-fw-8 {
+  font-weight: 800;
+}
+
+.c-fw-9 {
+  font-weight: 900;
+}
+
+/* --------------------- */
+/* -----font-weight----- */
+/* --------------------- */
+
+.heading-lg {
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+}
+.sub-heading-lg {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.text-heading-lg {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+.ptext-lg {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.heading-sub-mv {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+.ptext-mv {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+.pages-heading-lg {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 2.375rem;
+}
+.pages-heading-mv {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* colours  */
+.bg-colour-all {
+  color: #fff5f7;
+}
+.box-c-text {
+  color: #ffe7eb;
+}
+.button-c {
+  color: #f58221;
+}
+.text-heading-c {
+  color: #d41442;
+}
+.text-normal-c {
+  color: #555;
+}
+.c-contact {
+  color: #f58221;
+}
+
+@media (width<1200px) {
+  .heading-sub-mv {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+  .ptext-mv {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+  .pages-heading-mv {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+}
+
+@media (width<770px) {
+  .heading-sub-mv {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+  .ptext-mv {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+  .pages-heading-mv {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+}
+
+@media (width<576px) {
+  .heading-sub-mv {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+  .ptext-mv {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+  .pages-heading-mv {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+}
